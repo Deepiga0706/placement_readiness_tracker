@@ -1,0 +1,22 @@
+[
+  {
+    "id": "u_1777996434033",
+    "email": "deepigadeepiga004@gamil.com",
+    "password": "$2a$10$47MHGR90ONG5T5Xn67o/IezsEoa29lR3Jopi9u84TQOKiqJpBVs/G",
+    "createdAt": "2026-05-05T15:53:54.033Z"
+  },
+  {
+    "id": "u_1778160560863",
+    "email": "deepiga.rs2024cce@sece.ac.in",
+    "name": "deepiga",
+    "password": "$2a$10$MdGW1oJEx218i5QFXa4U2OX1KesGbV15vaQgidydklROY/2RJ37oy",
+    "createdAt": "2026-05-07T13:29:20.863Z"
+  },
+  {
+    "id": "u_1778163746115",
+    "email": "deepigadeepiga004@gmail.com",
+    "name": "deepiga",
+    "password": "$2a$10$NJaGPGTT7n5D4OIqug2oEOX/AOMJ8xDFvzMYeL9i1eSrCQtoPzqWe",
+    "createdAt": "2026-05-07T14:22:26.115Z"
+  }
+]
