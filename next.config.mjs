@@ -1,8 +1,3 @@
-
-
-
-
-export default nextConfig
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -11,5 +6,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-}
+};
+
+export default nextConfig;
 
