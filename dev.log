@@ -1,0 +1,86 @@
+
+> placement_tracker@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 4.5s
+ ○ Compiling /api/auth/signup ...
+ ✓ Compiled /api/auth/signup in 1984ms (141 modules)
+ POST /api/auth/signup 200 in 2518ms
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 959ms (72 modules)
+ ○ Compiling /dashboard ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\placement_tracker\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\placement_tracker\node_modules\typescript\lib\typescript.js', but to 'd:\placement_tracker\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\placement_tracker\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\placement_tracker\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\placement_tracker\node_modules\typescript\lib\typescript.js', but to 'd:\placement_tracker\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\placement_tracker\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ✓ Compiled /_not-found in 12.1s (709 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1248ms
+ GET /_next/static/chunks/app/signup/LayoutGroupContext.mjs.map 404 in 78ms
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\placement_tracker\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\placement_tracker\node_modules\typescript\lib\typescript.js', but to 'd:\placement_tracker\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\placement_tracker\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\handle-externals.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ○ Compiling /analyze ...
+ ✓ Compiled /analyze in 541ms (701 modules)
+ ✓ Compiled /api/analyze in 358ms (423 modules)
+ POST /api/analyze 200 in 5375ms
+ ○ Compiling /analysis-result ...
+ ✓ Compiled /analysis-result in 6.2s (1507 modules)
+ GET /_next/static/chunks/app/analysis-result/LayoutGroupContext.mjs.map 404 in 274ms
+ ○ Compiling /assessment ...
+ ✓ Compiled /assessment in 888ms (1418 modules)
+ ✓ Compiled /analyze in 243ms (709 modules)
+ ✓ Compiled /api/analyze in 352ms (334 modules)
+ POST /api/analyze 200 in 5972ms
+ ✓ Compiled /analysis-result in 275ms (736 modules)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in d:\placement_tracker\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'D:\placement_tracker\node_modules\typescript\lib\typescript.js', but to 'd:\placement_tracker\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected D:\placement_tracker\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\swc\index.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs d:\placement_tracker\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+
+d:\placement_tracker>

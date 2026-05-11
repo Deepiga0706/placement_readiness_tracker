@@ -110,7 +110,31 @@ export default function AssessmentResultPage() {
             <ul className="mt-2 text-slate-300 list-disc list-inside">{weaknesses.length ? weaknesses.map(s => <li key={s}>{s}</li>) : <li>None detected</li>}</ul>
           </div>
         </div>
-      </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-slate-900/30 rounded-lg border border-white/5">
+            <h3 className="font-semibold">Skill Verification Progress</h3>
+            <div className="mt-3 grid gap-3">
+              {Object.entries(res.byTopic).map(([topic, stats]: any) => {
+                const pct = Math.round((stats.correct / Math.max(1, stats.total)) * 100);
+                const verified = pct >= 70;
+                return (
+                  <div key={topic} className="p-3 bg-white/3 rounded flex items-center justify-between">
+                    <div>
+                      <div className="font-medium">{topic} <span className="text-xs text-slate-400">({stats.correct}/{stats.total})</span></div>
+                      <div className="text-xs text-slate-300">{verified ? 'Verified' : 'Requires Practice'}</div>
+                    </div>
+                    <div className="w-1/3">
+                      <div className="h-2 bg-white/5 rounded overflow-hidden">
+                        <motion.div initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.9 }} className={`h-2 ${verified ? 'bg-gradient-to-r from-green-400 to-teal-400' : 'bg-gradient-to-r from-yellow-500 to-rose-500'}`} />
+                      </div>
+                      <div className="text-sm text-slate-300 mt-1 text-right">{pct}%</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
     </div>
   );
 }
